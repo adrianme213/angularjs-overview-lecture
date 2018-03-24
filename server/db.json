@@ -1,0 +1,135 @@
+{
+  "gameentry": [{
+      "id": "43148",
+      "scheduleStatus": "Normal",
+      "originalDate": null,
+      "originalTime": null,
+      "delayedOrPostponedReason": null,
+      "date": "2018-03-24",
+      "time": "6:00PM",
+      "awayTeam": {
+        "ID": "100",
+        "City": "Minnesota",
+        "Name": "Timberwolves",
+        "Abbreviation": "MIN"
+      },
+      "homeTeam": {
+        "ID": "85",
+        "City": "Philadelphia",
+        "Name": "76ers",
+        "Abbreviation": "PHI"
+      },
+      "location": "Wells Fargo Center"
+    },
+    {
+      "id": "43149",
+      "scheduleStatus": "Normal",
+      "originalDate": null,
+      "originalTime": null,
+      "delayedOrPostponedReason": null,
+      "date": "2018-03-24",
+      "time": "7:00PM",
+      "awayTeam": {
+        "ID": "89",
+        "City": "Chicago",
+        "Name": "Bulls",
+        "Abbreviation": "CHI"
+      },
+      "homeTeam": {
+        "ID": "88",
+        "City": "Detroit",
+        "Name": "Pistons",
+        "Abbreviation": "DET"
+      },
+      "location": "The Palace of Auburn Hills"
+    },
+    {
+      "id": "43150",
+      "scheduleStatus": "Normal",
+      "originalDate": null,
+      "originalTime": null,
+      "delayedOrPostponedReason": null,
+      "date": "2018-03-24",
+      "time": "7:00PM",
+      "awayTeam": {
+        "ID": "104",
+        "City": "Phoenix",
+        "Name": "Suns",
+        "Abbreviation": "PHX"
+      },
+      "homeTeam": {
+        "ID": "95",
+        "City": "Orlando",
+        "Name": "Magic",
+        "Abbreviation": "ORL"
+      },
+      "location": "Amway Center"
+    },
+    {
+      "id": "43151",
+      "scheduleStatus": "Normal",
+      "originalDate": null,
+      "originalTime": null,
+      "delayedOrPostponedReason": null,
+      "date": "2018-03-24",
+      "time": "8:00PM",
+      "awayTeam": {
+        "ID": "105",
+        "City": "Los Angeles",
+        "Name": "Lakers",
+        "Abbreviation": "LAL"
+      },
+      "homeTeam": {
+        "ID": "107",
+        "City": "Memphis",
+        "Name": "Grizzlies",
+        "Abbreviation": "MEM"
+      },
+      "location": "FedEx Forum"
+    },
+    {
+      "id": "43152",
+      "scheduleStatus": "Normal",
+      "originalDate": null,
+      "originalTime": null,
+      "delayedOrPostponedReason": null,
+      "date": "2018-03-24",
+      "time": "8:00PM",
+      "awayTeam": {
+        "ID": "110",
+        "City": "New Orleans",
+        "Name": "Pelicans",
+        "Abbreviation": "NOP"
+      },
+      "homeTeam": {
+        "ID": "109",
+        "City": "Houston",
+        "Name": "Rockets",
+        "Abbreviation": "HOU"
+      },
+      "location": "Toyota Center"
+    },
+    {
+      "id": "43153",
+      "scheduleStatus": "Normal",
+      "originalDate": null,
+      "originalTime": null,
+      "delayedOrPostponedReason": null,
+      "date": "2018-03-24",
+      "time": "8:30PM",
+      "awayTeam": {
+        "ID": "93",
+        "City": "Charlotte",
+        "Name": "Hornets",
+        "Abbreviation": "CHA"
+      },
+      "homeTeam": {
+        "ID": "108",
+        "City": "Dallas",
+        "Name": "Mavericks",
+        "Abbreviation": "DAL"
+      },
+      "location": "American Airlines Center"
+    }
+  ]
+}
