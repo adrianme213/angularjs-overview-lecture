@@ -1,9 +1,12 @@
 angular.module('nba-game-schedule')
   .component('app', {
-    controller: function() {
-      // CONSOLE LOG SOMETHING TO ENSURE CONTROLLER IS RUNNING
-
-      // LOAD THE TEMPLATE URL (PREFERRED TO INLINE TEMPLATE)
+    controller: function(database) {
+      this.updateGames = (games) => {
+        this.games = games;
+        this.mainGame = this.games[0];
+        console.log('this is ', this.games)
+      }
+      database.updateGameList(this.updateGames);
     },
-    template: `<div>Hello From App</div>`
+    templateUrl: `src/templates/app.html`
   });
