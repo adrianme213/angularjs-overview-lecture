@@ -1,11 +1,18 @@
 <div>
-  <h1>Hello From NBA Game Schedule</h1>
+  <div class="ui inverted segment">
+    <h1 class="ui blue inverted header"
+    style="width: 80%; text-align: center;">
+      Hello From NBA Game Schedule
+    </h1>
+  </div>
+  <hr>
   <div style="float: left; width: 50%; display: inline-block;">
-    Div 1
-    <main-game-detail></main-game-detail>
+    <main-game-detail main-game="$ctrl.mainGame" image-url="$ctrl.imageUrl"></main-game-detail>
   </div>
   <div style="float: right; width: 50%; display: inline-block;">
-    Div 2
-    <games-list></games-list>
+    <games-list
+      games="$ctrl.games"
+      on-click="$ctrl.selectMainGame"
+    ></games-list>
   </div>
 </div>

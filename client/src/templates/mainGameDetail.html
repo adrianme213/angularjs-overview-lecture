@@ -1,3 +1,29 @@
 <div style="text-align: center;">
-  Hello from Main Game
-</div>
+  <div class="ui segment">
+    <h3 class="ui blue header" style="width: 80%; text-align: center;">
+      Tonight's Game of the Night
+    </h3>
+  </div>
+  <div>
+    <div class="ui items">
+      <div class="item">
+        <div class="ui medium image">
+          <img ng-src="{{$ctrl.imageUrl}}">
+        </div>
+        <div class="content">
+          <h4 class="ui blue header">
+            {{$ctrl.mainGame.homeTeam.City}} {{$ctrl.mainGame.homeTeam.Name}}
+             vs. {{$ctrl.mainGame.awayTeam.City}} {{$ctrl.mainGame.awayTeam.Name}}
+          </h4>
+          <div class="description">
+            <p><b>Date:</b> {{$ctrl.mainGame.date}}</p>
+            <p><b>Tip Off:</b> {{$ctrl.mainGame.time}}</p>
+            <p><b>Location:</b> {{$ctrl.mainGame.location}}</p>
+          </div>
+          <div class="description">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

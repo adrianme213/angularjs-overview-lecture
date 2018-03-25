@@ -3,7 +3,6 @@ angular.module('nba-game-schedule')
     this.updateGameList = function(callback) {
       $http.get('http://localhost:3000/gameentry', {})
         .then(function({data}) {
-          console.log(data);
           if (callback) {
             callback(data);
           }

@@ -1,6 +1,10 @@
 angular.module('nba-game-schedule')
   .component('mainGameDetail', {
-    controller: function(database) {
+    bindings: {
+      mainGame: '<',
+      imageUrl: '<'
+    },
+    controller: function() {
     },
     templateUrl: `src/templates/mainGameDetail.html`
   });
