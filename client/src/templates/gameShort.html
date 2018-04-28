@@ -1,0 +1,32 @@
+<div style="text-align: center; padding: 1em; border: 1px solid black; margin: 1em;"
+    ng-click="$ctrl.onClick($ctrl.game)">
+  <div class="ui grid">
+    <div class="seven wide column">
+      <div class="ui centered card">
+        <div class="image">
+          <img ng-src="{{$ctrl.teamImage($ctrl.game.homeTeam)}}">
+        </div>
+        <div class="content">
+          <h4 class="header">{{$ctrl.game.homeTeam.City}}</h4>
+          <p class="description">{{$ctrl.game.homeTeam.Name}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="two wide column"><p style="vertical-align: middle;">vs.</p></div>
+    <div class="seven wide column">
+      <div class="ui centered card">
+        <div class="image">
+          <img ng-src="{{$ctrl.teamImage($ctrl.game.awayTeam)}}">
+        </div>
+        <div class="content">
+          <h4 class="header">{{$ctrl.game.awayTeam.City}}</h4>
+          <p class="description">{{$ctrl.game.awayTeam.Name}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="fourteen wide column">
+      <p class="description">{{$ctrl.game.date}} at {{$ctrl.game.time}}</p>
+      <p class="description">{{$ctrl.game.location}}</p>
+    </div>
+  </div>
+</div>

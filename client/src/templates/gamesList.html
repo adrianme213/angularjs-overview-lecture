@@ -1,0 +1,13 @@
+<div style="text-align: center;">
+  <div class="ui segment">
+    <h3 class="ui blue header"
+    style="width: 80%; text-align: center;">
+      All of Tonight's NBA Action
+    </h3>
+  </div>
+  <game-short
+    ng-repeat="game in $ctrl.games"
+    game="game"
+    on-click="$ctrl.onClick"
+  ></game-short>
+</div>
